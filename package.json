@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/echopoint/gloom.git"
   },
+  "preferGlobal": true,
   "main": "index.js",
   "engine": {
     "node": ">= 6"
@@ -22,7 +23,6 @@
     "test": "tap test/*.js",
     "coverage": "tap test/*.js --coverage --coverage-report=lcov"
   },
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^4.12.1",
     "jsdoc": "^3.5.5",
